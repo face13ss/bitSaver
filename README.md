@@ -21,6 +21,8 @@ Nhìn sâu hơn nữa vào file mình nhận thấy là chúng ta chỉ cần nh
 Ý tưởng nảy ra là sử dụng bit cao nhất trong 8 bit để lưu trữ byte thứ 8 trong file
 
 ![bit order.png](bitSaver%2095a9a1f4370840479c27e9efd19166fe/bit_order.png)
+![https://raw.githubusercontent.com/anhdungxd21/bitSaver/main/img/bit_order.png](https://raw.githubusercontent.com/anhdungxd21/bitSaver/main/img/bit_order.png)
+
 
 Từ 8 byte ban đầu ta có thể mã hoá nó trở thành 7 byte và làm ngược lại cho việc giải mã.
 
