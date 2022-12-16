@@ -10,7 +10,7 @@ Từ đó cần có một phương pháp tốt hơn để lưu trữ nhưng file
 
 khi nhìn vào các file log, đó là những file text thuần có encoding là UTF-8, với việc sử dụng 8 bit bộ nhớ đại diện cho mỗi ký tự.
 
-Nhìn sâu hơn nữa vào file mình nhận thấy là chúng ta chỉ cần những chữ cái alphabet, số ả rập, dấu chấm câu và các ký tự tiện ích. Những ký tự đó chúng nằm trong nửa của bảng mã.
+Nhìn sâu hơn nữa vào file mình nhận thấy là chúng ta chỉ cần những chữ cái alphabet, số ả rập, dấu chấm câu và các ký tự tiện ích. Những ký tự đó chúng nằm trong nửa trước của bảng mã.
 
 ![https://www.jmix.io/uploads/fa96286506be47f58c4761ef92268d28.PNG](https://www.jmix.io/uploads/fa96286506be47f58c4761ef92268d28.PNG)
 
