@@ -30,7 +30,7 @@ Vì sao lại “khoảng” vì đôi khi số lượng byte cuối cùng trong
 
 ## Ý tưởng phụ
 
-Việc sử dụng 7 bit ta có thể biểu diễn 127 ký tự. Chúng ta chỉ cần 94 giá trị để biểu diễn bảng chữ cái và ký tự có nghĩa, và các ký tự điều khiển như `"\n", "\t"` .
+Việc sử dụng 7 bit ta có thể biểu diễn 128 ký tự. Chúng ta chỉ cần 94 giá trị để biểu diễn bảng chữ cái và ký tự có nghĩa, và các ký tự điều khiển như `"\n", "\t"` .
 
 Với file log, có rất nhiều từ được lặp đi lặp lại ví dụ như `null` mình có thể biểu diễn nó duy nhất bằng 1 byte với giá trị là `0x00` và nhiều từ khác nữa có thể tự custom trong quá trình phân tích.
 
